@@ -76,6 +76,42 @@ npx serve
 
 Then navigate to `http://localhost:5500` in your browser.
 
+## Deployment Status
+
+This website has been successfully deployed to GitHub:
+
+- **Repository**: [https://github.com/charan22640/Kyara-Beverages](https://github.com/charan22640/Kyara-Beverages)
+- **Live Website**: [https://charan22640.github.io/Kyara-Beverages/](https://charan22640.github.io/Kyara-Beverages/)
+
+### GitHub Pages Configuration
+
+To ensure your website is live:
+
+1. Go to the repository settings on GitHub: [Repository Settings](https://github.com/charan22640/Kyara-Beverages/settings)
+2. Navigate to "Pages" in the sidebar
+3. Under "Source", confirm "main" branch and "/ (root)" folder are selected
+4. Click "Save" if needed
+
+> **Note**: It may take a few minutes for changes to appear after GitHub Pages is enabled.
+
+### Making Future Updates
+
+To update your website in the future:
+
+```bash
+# Pull the latest changes (if working from a different computer)
+git pull
+
+# Make your changes to the files
+
+# Commit and push changes
+git add .
+git commit -m "Update website"
+git push
+```
+
+After pushing updates, the live site will automatically refresh in a few minutes.
+
 ## Project Structure
 
 ```
